@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Regular-webfont.woff') format('woff'),
+        url('Roboto-Regular-webfont.ttf') format('truetype'),
+        url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.BROWSER__CHECKER__warning {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 240px;
+    z-index: 999999999;
+    background-color: #ffffff;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.BROWSER__CHECKER__close {
+    position: absolute;
+    top: -4px;
+    left: 100%;
+    cursor: pointer;
+}
+
+.BROWSER__CHECKER__wrapper {
+    position: relative;
+    width: 368px;
+    margin: 0 auto;
+}
+
+.BROWSER__CHECKER__header {
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #121420;
+}
+
+.BROWSER__CHECKER__text {
+    width: 345px;
+    margin: 14px auto 0 auto;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.64;
+    text-align: center;
+    color: #121420;
+}
+
+.BROWSER__CHECKER__browsers-block {
+    width: 253px;
+    margin: 22px auto 0 auto;
+    overflow: hidden;
+}
+
+.BROWSER__CHECKER__chrome,
+.BROWSER__CHECKER__firefox,
+.BROWSER__CHECKER__safari {
+    float: left;
+    text-align: center;
+}
+
+.BROWSER__CHECKER__chrome img,
+.BROWSER__CHECKER__firefox img,
+.BROWSER__CHECKER__safari img {
+    display: block;
+    margin: 0 auto;
+}
+
+.BROWSER__CHECKER__safari,
+.BROWSER__CHECKER__chrome {
+    width: 56px;
+}
+
+.BROWSER__CHECKER__firefox {
+    width: 141px;
+}
+
+.BROWSER__CHECKER__link {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #121420;
+}
+
+.BROWSER__CHECKER__subtext {
+    font-family: Roboto, sans-serif;
+    font-size: 10px;
+    color: #bdc2bf;
+}
